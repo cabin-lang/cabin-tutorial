@@ -1,3 +1,16 @@
+// In Cabin, we declare a main function, similar to other languages. Unlike a lot of other languages though, there is not a special syntax
+// for declaring a function. A function is simply declared as a regular variable with the `let` keyword with a value assigned to a function
+// value. Note that parentheses around function parameters are not required if the function takes no parameters. Also, note that semicolons 
+// are required at the end of all statements, including function declarations (and later, loops and if-statements).
+//
+// In this case, we want to print "Hello world!" using the built-in `terminal.output` function. Text in Cabin are always double quoted.
+// 
+// Edit the code below to correctly print "Hello world!" to the terminal.
+// 
+// When you're done, you can run `cabin run -- 001` (from the project root, not the exercise directory) or just run `cabin run` to run all
+// exercises, stopping on the first failure. This will be the standard way to test your solution, and won't be mentioned in further
+// exercises.
+
 let main = function(): Void {
-	terminal.output(???);
+	terminal.output();
 };
